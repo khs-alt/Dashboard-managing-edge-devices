@@ -23,13 +23,13 @@ type DevicesResponse struct {
 
 // MainHandler redirects to the login page
 func MainHandler(c *gin.Context) {
-	redirectURL := "https://fianl-test.auth.ap-southeast-2.amazoncognito.com/login?client_id=6d0am4r9j19hifgtb2u3tucpt3&response_type=token&scope=aws.cognito.signin.user.admin&redirect_uri=http%3A%2F%2Flocalhost%3A80%2Ffront%2Fhome.html"
+	redirectURL := "https://fianl-test.auth.ap-southeast-2.amazoncognito.com/login?client_id=6d0am4r9j19hifgtb2u3tucpt3&response_type=token&scope=aws.cognito.signin.user.admin&redirect_uri=https%3A%2F%2Fcg7jy1e6bi.execute-api.ap-southeast-2.amazonaws.com%2Fdemo%2Ftest_python"
 	c.Redirect(http.StatusFound, redirectURL)
 }
 
 // LoginHandler handles the login process
 func LoginHandler(c *gin.Context) {
-	redirectURL := "https://fianl-test.auth.ap-southeast-2.amazoncognito.com/login?client_id=6d0am4r9j19hifgtb2u3tucpt3&response_type=token&scope=aws.cognito.signin.user.admin&redirect_uri=http%3A%2F%2Flocalhost%3A80%2Ffront%2Fhome.html"
+	redirectURL := "https://fianl-test.auth.ap-southeast-2.amazoncognito.com/login?client_id=6d0am4r9j19hifgtb2u3tucpt3&response_type=token&scope=aws.cognito.signin.user.admin&redirect_uri=https%3A%2F%2Fcg7jy1e6bi.execute-api.ap-southeast-2.amazonaws.com%2Fdemo%2Ftest_python"
 	c.Redirect(http.StatusFound, redirectURL)
 }
 
@@ -104,7 +104,7 @@ func TailscaleDevicesHandler(c *gin.Context) {
 								<td class='px-4 py-2'>%s</td>
 								<td class='px-4 py-2'>%s</td>
 								<td class='px-4 py-2'>
-									<button hx-get='http://localhost:8080/device-install-list?hostname=%s' hx-target='#%s' hx-trigger='click' class='bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded'>Get Package</button>
+									<button hx-get='http://localhost:80/device-install-list?hostname=%s' hx-target='#%s' hx-trigger='click' class='bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded'>Get Package</button>
 								</td>
 							</tr>
 							<tr>

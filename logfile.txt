@@ -30,3 +30,11 @@ INFO: 2024/02/09 19:06:56 main.go:24: Logging
 INFO: 2024/02/09 19:07:58 main.go:24: Logging
 INFO: 2024/02/09 19:08:42 main.go:24: Logging
 INFO: 2024/02/09 19:08:42 main.go:37: Port 8080 is open.
+INFO: 2024/02/10 00:44:41 main.go:24: Logging
+INFO: 2024/02/10 00:44:41 main.go:37: Port 80 is open.
+INFO: 2024/02/10 00:45:57 main.go:24: Logging
+INFO: 2024/02/10 00:45:57 main.go:37: Port 80 is open.
+INFO: 2024/02/10 00:46:35 main.go:24: Logging
+INFO: 2024/02/10 00:46:35 main.go:37: Port 80 is open.
+INFO: 2024/02/10 00:51:16 main.go:24: Logging
+INFO: 2024/02/10 00:51:16 main.go:37: Port 80 is open.
