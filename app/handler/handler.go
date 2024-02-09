@@ -23,13 +23,13 @@ type DevicesResponse struct {
 
 // MainHandler redirects to the login page
 func MainHandler(c *gin.Context) {
-	redirectURL := "https://fianl-test.auth.ap-southeast-2.amazoncognito.com/login?client_id=6d0am4r9j19hifgtb2u3tucpt3&response_type=token&scope=aws.cognito.signin.user.admin&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Ffront%2Fhome.html"
+	redirectURL := "https://fianl-test.auth.ap-southeast-2.amazoncognito.com/login?client_id=6d0am4r9j19hifgtb2u3tucpt3&response_type=token&scope=aws.cognito.signin.user.admin&redirect_uri=http%3A%2F%2Flocalhost%3A80%2Ffront%2Fhome.html"
 	c.Redirect(http.StatusFound, redirectURL)
 }
 
 // LoginHandler handles the login process
 func LoginHandler(c *gin.Context) {
-	redirectURL := "https://fianl-test.auth.ap-southeast-2.amazoncognito.com/login?client_id=6d0am4r9j19hifgtb2u3tucpt3&response_type=token&scope=aws.cognito.signin.user.admin&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Ffront%2Fhome.html"
+	redirectURL := "https://fianl-test.auth.ap-southeast-2.amazoncognito.com/login?client_id=6d0am4r9j19hifgtb2u3tucpt3&response_type=token&scope=aws.cognito.signin.user.admin&redirect_uri=http%3A%2F%2Flocalhost%3A80%2Ffront%2Fhome.html"
 	c.Redirect(http.StatusFound, redirectURL)
 }
 

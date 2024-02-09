@@ -5,7 +5,7 @@ This web service provides a user interface for viewing information about Linux-b
 ## Technologies Used
 
 - **Language & Framework**: The backend is developed in Go, utilizing the Gin web framework.
-- **User Interface (UI)**: The front end uses HTMX and Tailwind CSS for a dynamic and responsive design.
+- **User Interface (UI)**: The front end uses HTMX and Tailwind CSS
 - **Deployment**: The application is deployed on AWS EC2 instances.
 - **Authentication**: Utilizes AWS Cognito User Pools for authentication.
 
