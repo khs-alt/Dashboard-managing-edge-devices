@@ -29,9 +29,12 @@ After registering your devices with Tailscale, update the `TailscaleDevicesHandl
 
 ## Getting Started
 
-You can login from the home page either by registering a new account or using the provided demo credentials.
+You can login from the home page either by registering a new account or 
+using the provided demo credentials.
 
-- **Demo ID**: vekeso9433@flexvio.com
+
+- **Website URL: http://13.236.4.196/
+- **Demo ID**: tetebax914@tupanda.com
 - **Demo Password**: abcd1234!
 
 This service aims to simplify managing Tailscale-registered Linux devices and enhance the visibility of installed applications across your network.
