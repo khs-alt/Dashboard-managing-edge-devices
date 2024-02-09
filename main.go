@@ -34,6 +34,6 @@ func main() {
 	router.Use(cors.Default())
 
 	app.Routes(router)
-	log.Println("Port 8080 is open.")
-	router.Run(":8080")
+	log.Println("Port 80 is open.")
+	router.Run(":80")
 }
