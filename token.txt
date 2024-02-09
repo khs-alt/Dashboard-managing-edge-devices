@@ -1,0 +1,7 @@
+tskey-api-kv7icz5CNTRL-gMgqnxnFgSKZvVvziW1ySKaqkpUMVSYQ7
+
+tailscale token
+
+Abcd1234@
+
+https://real-test.auth.ap-southeast-2.amazoncognito.com/login?client_id=71siu67gu145gdma5imr5dphln&response_type=code&scope=aws.cognito.signin.user.admin&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Ffront%2Fhome.html
