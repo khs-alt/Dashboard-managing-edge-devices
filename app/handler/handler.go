@@ -104,7 +104,7 @@ func TailscaleDevicesHandler(c *gin.Context) {
 								<td class='px-4 py-2'>%s</td>
 								<td class='px-4 py-2'>%s</td>
 								<td class='px-4 py-2'>
-									<button hx-get='http://13.55.31.212/device-install-list?hostname=%s' hx-target='#%s' hx-trigger='click' class='bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded'>Get Package</button>
+									<button hx-get='http://13.236.4.196/device-install-list?hostname=%s' hx-target='#%s' hx-trigger='click' class='bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded'>Get Package</button>
 								</td>
 							</tr>
 							<tr>
