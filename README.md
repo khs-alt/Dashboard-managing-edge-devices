@@ -32,10 +32,11 @@ After registering your devices with Tailscale, update the `TailscaleDevicesHandl
 You can login from the home page either by registering a new account or 
 using the provided demo credentials.
 
-
-- **Website URL: http://13.236.4.196/
+~~- **Website URL: http://13.236.4.196/
 - **Demo ID**: tetebax914@tupanda.com
-- **Demo Password**: abcd1234!
+- **Demo Password**: abcd1234!~~
+
+*This is not a working address.*
 
 This service aims to simplify managing Tailscale-registered Linux devices and enhance the visibility of installed applications across your network.
 
